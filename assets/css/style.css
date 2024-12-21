@@ -584,7 +584,7 @@ main {
   left: 0;
   transform: translate(15px, -25px);
   background: var(--bg-gradient-onyx);
-  border-radius: 14px;
+  border-radius: 50%;
   box-shadow: var(--shadow-1);
 }
 
@@ -1425,10 +1425,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-avatar-box {
     transform: translate(30px, -30px);
-    border-radius: 20px;
+    border-radius: 50%;
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img { width: 70px; height: 70px; object-fit: fill; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
@@ -1464,7 +1464,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
   }
 
-  .modal-avatar-box img { width: 65px; }
+  .modal-avatar-box img { width: 65px; border-radius: 20px; }
 
   .modal-img-wrapper > img {
     display: block;
