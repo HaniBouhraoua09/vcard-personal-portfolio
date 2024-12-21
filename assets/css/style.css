@@ -1228,6 +1228,12 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
+@media (min-width: 330px) {
+  main .sidebar .info-content .title {
+    padding: 0px 10px 10px 15px  ;
+  }
+}
+
 @media (min-width: 450px) {
 
   /**
