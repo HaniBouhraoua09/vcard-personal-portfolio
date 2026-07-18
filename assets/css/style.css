@@ -1004,6 +1004,22 @@ main {
 
 .project-item > a:hover img { transform: scale(1.1); }
 
+.project-img.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-gradient-onyx);
+}
+
+.project-img-icon {
+  font-size: 64px;
+  color: var(--light-gray-70);
+  --ionicon-stroke-width: 22px;
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .project-img-icon { transform: scale(1.1); }
+
 .project-title,
 .project-category { margin-left: 10px; }
 
